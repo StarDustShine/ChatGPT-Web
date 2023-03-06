@@ -42,10 +42,10 @@ onMounted(() => {
           问心我爱你问心我爱你问心我爱你问心我爱你问心我爱你问心我爱你问心我爱你问心我爱你问心我爱你问心我爱你问心我爱你问心我爱你问心我爱你
         </p>
       </div>
-      <p>{{ $t("setting.api") }}：{{ config?.apiModel ?? '-' }}</p>
-      <p>{{ $t("setting.reverseProxy") }}：{{ config?.reverseProxy ?? '-' }}</p>
-      <p>{{ $t("setting.timeout") }}：{{ config?.timeoutMs ?? '-' }}</p>
-      <p>{{ $t("setting.socks") }}：{{ config?.socksProxy ?? '-' }}</p>
+      <p>运行模式：{{ config?.apiModel ?? '-' }}</p>
+      <p>许可域名：{{ config?.reverseProxy ?? '-' }}</p>
+      <p>超时时间：{{ config?.timeoutMs ?? '-' }}</p>
+      <p>代理情况：{{ config?.socksProxy ?? '未启用Socks5' }}</p>
     </div>
   </NSpin>
 </template>
