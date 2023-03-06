@@ -76,7 +76,7 @@ function handleReset() {
   <div class="p-4 space-y-5 min-h-[200px]">
     <div class="space-y-6">
       <div class="flex items-center space-x-4">
-        <span class="flex-shrink-0 w-[100px]">{{ $t('setting.avatarLink') }}</span>
+        <span class="flex-shrink-0 w-[100px]">http://www.ntcor.net/wp-content/uploads/2023/03/ava.jpg</span>
         <div class="flex-1">
           <NInput v-model:value="avatar" placeholder="" />
         </div>
@@ -85,7 +85,7 @@ function handleReset() {
         </NButton>
       </div>
       <div class="flex items-center space-x-4">
-        <span class="flex-shrink-0 w-[100px]">{{ $t('setting.name') }}</span>
+        <span class="flex-shrink-0 w-[100px]">恩科NTCOR</span>
         <div class="w-[200px]">
           <NInput v-model:value="name" placeholder="" />
         </div>
@@ -94,7 +94,7 @@ function handleReset() {
         </NButton>
       </div>
       <div class="flex items-center space-x-4">
-        <span class="flex-shrink-0 w-[100px]">{{ $t('setting.description') }}</span>
+        <span class="flex-shrink-0 w-[100px]">Powered By NTCOR.NET</span>
         <div class="flex-1">
           <NInput v-model:value="description" placeholder="" />
         </div>
